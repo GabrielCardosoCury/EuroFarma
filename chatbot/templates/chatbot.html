@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot com Função Lambda</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Chatbot</h1>
+    <div id="chat-container">
+        <div id="chat-history"></div>
+        <div id="user-input">
+            <input type="text" id="user-message" placeholder="Digite sua mensagem">
+            <button id="send-button">Enviar</button>
+        </div>
+    </div>
+
+    <script
+        src="{{ url_for('static', filename='js/script.js') }}"
+        type="module"
+    ></script>
+
+</body>
+</html>
+
